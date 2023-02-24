@@ -1,6 +1,6 @@
 # TG_template
 
-> 本系列模板包括TGNA, TGhomework, TGtest这三款模板.
+> 本系列模板包括TGNA, TGhomework, TGexam这三款模板.
 
 ## TGNA
 
@@ -19,7 +19,7 @@
 
 特别添加了`problem`, `solution`, `proof`, `note`等自定义环境.
 
-## TGtest
+## TGexam
 
 主要用于试卷整理
 
@@ -57,7 +57,7 @@ git clone git@github.com:will-c137/TG_template.git
 ```
 或者
 ```tex
-\documentclass{TGtest}
+\documentclass{TGexam}
 ```
 即可使用模板.
 
@@ -66,7 +66,7 @@ git clone git@github.com:will-c137/TG_template.git
 步骤如下:
 
 1. 找到TeXlive的模板目录, 一般在`C:\texlive\texmf-local\tex\latex\local`(前面的路径根据你的安装路径而定).
-2. 新建模板文件夹, 例如`TGtest`.
+2. 新建模板文件夹, 例如`TGexam`.
 3. 把模板里的`*.cls`文件复制到你建立的文件夹下.一个模板一个文件夹.
 
 之后打开终端(windows系统, 需要管理员权限), 输入
