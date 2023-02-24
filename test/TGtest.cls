@@ -16,7 +16,7 @@
 
 \newcounter{questionname}
 \newcounter{subquestionname}[questionname]
-\newenvironment{question}{\stepcounter{questionname}\par\noindent\textbf{\chinese{questionname}.}}{\par}
+\newenvironment{question}[1][0]{\stepcounter{questionname}\par\noindent\textbf{\chinese{questionname}.(\bfseries #1 分)}}{\par}
 \newenvironment{subquestion}{\stepcounter{subquestionname}\par\noindent\textbf{(\arabic{subquestionname})}}{\par}
 
 % comment settings
