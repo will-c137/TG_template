@@ -1,9 +1,9 @@
 % Author: Will
 % Version: 1.0
 % Date: 2023-2-24
-% Description: TGtest.cls is a class file for test paper.
+% Description: TGexam.cls is a class file for test paper.
 
-\ProvidesClass{TGtest}
+\ProvidesClass{TGexam}
 \NeedsTeXFormat{LaTeX2e}
 
 \LoadClass{article}

@@ -1,13 +1,13 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.23)  25 FEB 2023 00:47
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.23)  25 FEB 2023 00:51
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**tt
-(./tt.tex
+**exam
+(./exam.tex
 LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-02-07> (./TGtest.cls
-Document Class: TGtest 
+L3 programming layer <2023-02-07> (./TGexam.cls
+Document Class: TGexam 
 (c:/texlive/2022/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
 (c:/texlive/2022/texmf-dist/tex/latex/base/size10.clo
@@ -444,8 +444,8 @@ File: bkm-dvipdfm.def 2020-11-06 v1.29 bookmark driver for dvipdfm (HO)
 ))
 \c@questionname=\count314
 \c@subquestionname=\count315
-) (./tt.aux)
-\openout1 = `tt.aux'.
+) (./exam.aux)
+\openout1 = `exam.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
@@ -537,14 +537,14 @@ LaTeX Font Info:    Trying to load font information for U+rsfs on input line 9.
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [1
 
-] (./tt.aux) ) 
+] (./exam.aux) ) 
 Here is how much of TeX's memory you used:
  15392 strings out of 476688
- 329777 string characters out of 5807699
+ 329799 string characters out of 5807699
  1853001 words of memory out of 5000000
  35372 multiletter control sequences out of 15000+600000
  529974 words of font info for 120 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 104i,6n,111p,351b,333s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 104i,6n,111p,353b,333s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on tt.pdf (1 page).
+Output written on exam.pdf (1 page).
