@@ -27,7 +27,7 @@
 
 ## 注意事项
 
-- 以上模板均在$\TeX Live2022$中测试通过.
+- 以上模板均在TeXLive2022中测试通过.
 - 已经封装好大部分的宏包, 无需额外引用.
 - 模板基于`article`文档类, 请注意使用时的格式要求, 且可以使用`article`文档类的所有命令.
 比如:
@@ -62,10 +62,10 @@ git clone git@github.com:will-c137/TG_template.git
 即可使用模板.
 
 如果你不想复制模板的`.cls`文件到你的工作目录下,
-你可以添加到$\TeX live$的模板目录下,
+你可以添加到TeXlive的模板目录下,
 步骤如下:
 
-1. 找到$\TeX live$的模板目录, 一般在`C:\texlive\texmf-local\tex\latex\local`(前面的路径根据你的安装路径而定).
+1. 找到TeXlive的模板目录, 一般在`C:\texlive\texmf-local\tex\latex\local`(前面的路径根据你的安装路径而定).
 2. 新建模板文件夹, 例如`TGtest`.
 3. 把模板里的`*.cls`文件复制到你建立的文件夹下.一个模板一个文件夹.
 
