@@ -1,0 +1,48 @@
+\documentclass[11pt,a4paper]{TGhomework}
+
+\title{\textbf{数学分析第十周作业}}
+\author{will}
+\date{\today}
+
+\begin{document}
+\maketitle
+\setlength{\parindent}{0pt}
+
+\begin{problem}
+习题12.5-1
+\end{problem}
+
+\begin{solution}
+    记$A_k=A \cap[-k, k]^n$, 则由$\partial A_k$为零测集知:
+
+    $\bigcup\limits_{k=1}^{+\infty} \partial A_k$为零测集.
+
+    于是$\partial A \subset \bigcup\limits_{k=1}^{+\infty} \partial A_k$为零测集.
+
+\end{solution}
+
+\begin{problem}
+习题12.5-2
+\end{problem}
+
+\begin{proof}
+    $f$有界, 不妨设$|f| \geqslant M$
+
+    $\int_{B_\varepsilon(p)}|f| \leq M \cdot V(B_\varepsilon)$ 有界.
+
+    又 $f$ 在 $A-B_\varepsilon(p)$ 上可积, 则在$A$上可积, 且
+    $$
+        \int_A f=\int_{A - B-\varepsilon(p)} f+\int_{B_\varepsilon(p)} f
+    $$
+    而$\left|\int_{B_\varepsilon(p)} f\right| \leq M \cdot V\left(B_{\varepsilon}\right)$, 于是:
+    $$
+        \int_A f=\lim _{\varepsilon \to 0^{+}} \int_{A-B_\varepsilon(p)} f
+    $$
+从而得到原题结论.
+\end{proof}
+
+\begin{note}
+    即得易见平凡, 仿照上例显然。留作习题答案略, 读者自证不难. 反之亦然同理, 推论自然成立。略去过程Q.E.D., 由上可知证毕.
+\end{note}
+
+\end{document}

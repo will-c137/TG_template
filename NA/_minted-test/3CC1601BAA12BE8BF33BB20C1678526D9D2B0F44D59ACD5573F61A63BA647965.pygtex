@@ -1,0 +1,39 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{c+c1}{\PYGZsh{} 画出一个矩形和hello world}
+
+\PYG{k+kn}{import} \PYG{n+nn}{turtle}
+
+\PYG{n}{turtle}\PYG{o}{.}\PYG{n}{pensize}\PYG{p}{(}\PYG{l+m+mi}{5}\PYG{p}{)}
+
+\PYG{n}{turtle}\PYG{o}{.}\PYG{n}{pencolor}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}red\PYGZdq{}}\PYG{p}{)}
+
+\PYG{n}{turtle}\PYG{o}{.}\PYG{n}{forward}\PYG{p}{(}\PYG{l+m+mi}{100}\PYG{p}{)}
+
+\PYG{n}{turtle}\PYG{o}{.}\PYG{n}{right}\PYG{p}{(}\PYG{l+m+mi}{90}\PYG{p}{)}
+
+\PYG{n}{turtle}\PYG{o}{.}\PYG{n}{forward}\PYG{p}{(}\PYG{l+m+mi}{100}\PYG{p}{)}
+
+\PYG{n}{turtle}\PYG{o}{.}\PYG{n}{right}\PYG{p}{(}\PYG{l+m+mi}{90}\PYG{p}{)}
+
+\PYG{n}{turtle}\PYG{o}{.}\PYG{n}{forward}\PYG{p}{(}\PYG{l+m+mi}{100}\PYG{p}{)}
+
+\PYG{n}{turtle}\PYG{o}{.}\PYG{n}{right}\PYG{p}{(}\PYG{l+m+mi}{90}\PYG{p}{)}
+
+\PYG{n}{turtle}\PYG{o}{.}\PYG{n}{forward}\PYG{p}{(}\PYG{l+m+mi}{100}\PYG{p}{)}
+
+\PYG{n}{turtle}\PYG{o}{.}\PYG{n}{right}\PYG{p}{(}\PYG{l+m+mi}{90}\PYG{p}{)}
+
+\PYG{n}{turtle}\PYG{o}{.}\PYG{n}{penup}\PYG{p}{()}
+
+\PYG{n}{turtle}\PYG{o}{.}\PYG{n}{goto}\PYG{p}{(}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{100}\PYG{p}{,} \PYG{l+m+mi}{100}\PYG{p}{)}
+
+\PYG{n}{turtle}\PYG{o}{.}\PYG{n}{pendown}\PYG{p}{()}
+
+\PYG{n}{turtle}\PYG{o}{.}\PYG{n}{pencolor}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}blue\PYGZdq{}}\PYG{p}{)}
+
+\PYG{n}{turtle}\PYG{o}{.}\PYG{n}{write}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Hello World\PYGZdq{}}\PYG{p}{,} \PYG{n}{font}\PYG{o}{=}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Arial\PYGZdq{}}\PYG{p}{,} \PYG{l+m+mi}{18}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}normal\PYGZdq{}}\PYG{p}{))}
+
+\PYG{n}{turtle}\PYG{o}{.}\PYG{n}{done}\PYG{p}{()}
+
+\PYG{c+c1}{\PYGZsh{} Path: code\PYGZbs{}helloworld.py}
+\end{Verbatim}

@@ -1,0 +1,81 @@
+\documentclass[11pt,a4paper]{TGNA}
+
+\title{\textbf{数值分析上机作业模板}}
+\author{will}
+\date{\today}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+    这是数值分析上机作业模板, 包含了常用的公式、算法伪代码、行内代码、代码块、代码文件等内容, 无需格外添加宏包.\\
+    \textbf{注意}:
+    \begin{enumerate}
+        \item 代码文件的路径是相对于当前文件的路径, 例如:code/helloworld.py
+        \item 代码高亮使用的宏包是minted, 需要安装pygments, 以及在编译时加上参数:-shell-escape(配置教程请自行搜索)
+    \end{enumerate}
+\end{abstract}
+\section{测试公式}
+这是欧拉公式：$e^{i\pi}+1=0$
+$$
+\int_{0}^{\infty} e^{-x^2} dx = \sqrt{\pi}
+$$
+麦克斯韦方程组
+$$
+\begin{aligned}
+    \frac{\partial E}{\partial t} = -\frac{\partial P}{\partial x} \\
+\frac{\partial B}{\partial t} = \frac{\partial J}{\partial x}
+\end{aligned}
+$$
+
+\section{测试算法伪代码}
+\begin{algorithm}
+\caption{测试算法伪代码}
+\begin{algorithmic}
+\REQUIRE $a, b, \epsilon$
+\ENSURE $x^*$, 使得$|f(x^*)| < \epsilon$
+\STATE $x^* = \frac{a + b}{2}$
+\WHILE{$|f(x^*)| > \epsilon$}
+\IF{$f(a) f(x^*) < 0$}
+\STATE $b = x^*$
+\ELSE
+\STATE $a = x^*$
+\ENDIF
+\STATE $x^* = \frac{a + b}{2}$
+\ENDWHILE
+\end{algorithmic}
+\end{algorithm}
+\section{测试行内代码}
+python\\
+\pythoninline{import numpy as np}
+
+matlab\\
+\matlabinline{x = linspace(-5, 5, 1000);}
+
+\section{测试代码块}
+python
+\begin{pythoncode}
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy import integrate
+
+def f(x):
+    return np.exp(-x**2)
+
+x = np.linspace(-5, 5, 1000)
+y = f(x)
+
+plt.plot(x, y)
+plt.show()
+\end{pythoncode}
+
+matlab
+\begin{matlabcode}
+x = linspace(-5, 5, 1000);
+y = exp(-x.^2);
+plot(x, y);
+\end{matlabcode}
+
+\section{测试代码文件}
+
+\pythonfile{code/helloworld.py}
+\end{document}
