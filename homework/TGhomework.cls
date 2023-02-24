@@ -21,7 +21,7 @@
 
 % problem,solution&note settings
 
-\definecolor{shadecolor}{RGB}{241, 241, 255}
+\definecolor{shadecolor}{RGB}{255, 241, 255}
 \newcounter{problemname}
 \newenvironment{problem}{\begin{shaded}\stepcounter{problemname}\par\noindent\textbf{题目\arabic{problemname}. }}{\end{shaded}\par}
 \newenvironment{solution}{\par\noindent\textbf{解. }}{\par}
