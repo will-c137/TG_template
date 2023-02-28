@@ -1,6 +1,6 @@
 # TG_template
 
-> 本系列模板包括TGNA, TGhomework, TGexam这三款模板.
+> 本系列模板包括TGNA, TGNAN, TGhomework, TGexam这三款模板.
 
 ## TGNA
 
@@ -12,6 +12,11 @@
 唯一需要配置的地方是`minted`宏包的配置,
 请参考[这里](https://will-c137.github.io/p/latex-minted/).
 特别添加了minted语法高亮的支持.
+
+## TGNAN
+
+同上, 但是把`minted`语法高亮换成了`listings`语法高亮.
+能够做到即开即用.
 
 ## TGhomework
 
