@@ -10,7 +10,7 @@
 具体参考样例程序.
 
 唯一需要配置的地方是`minted`宏包的配置,
-请参考[这里](https://will-c137.github.io/posts/3e1e7af7/#%E9%85%8D%E7%BD%AE).
+请参考[这里](https://will-c137.github.io/p/latex-minted/).
 特别添加了minted语法高亮的支持.
 
 ## TGhomework
