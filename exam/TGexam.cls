@@ -1,12 +1,16 @@
 % Author: Will
-% Version: 1.0
-% Date: 2023-2-24
+% Version: 1.2
+% Date: 2023-3-4
 % Description: TGexam.cls is a class file for test paper.
 
 \ProvidesClass{TGexam}
 \NeedsTeXFormat{LaTeX2e}
 
 \LoadClass{article}
+
+% Document settings
+
+\RequirePackage[left=1.25in,right=1.25in, top=1in,bottom=1in]{geometry} % Set the margins of the document
 
 % Load packages
 

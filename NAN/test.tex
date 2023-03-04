@@ -7,12 +7,14 @@
 \begin{document}
 \maketitle
 \begin{abstract}
-    这是数值分析上机作业模板, 包含了常用的公式、算法伪代码、行内代码、代码块、代码文件等内容, 无需格外添加宏包.\\
+    这是数值分析上机作业模板,
+    包含了常用的公式、算法伪代码、代码块、代码文件等内容,
+    无需格外添加宏包,
+    和另一个模板不同,
+    代码高亮方案采用listings,
+    不需要额外配置\\
     \textbf{注意}:
-    \begin{enumerate}
-        \item 代码文件的路径是相对于当前文件的路径, 例如:code/helloworld.py
-        \item 代码高亮使用的宏包是minted, 需要安装pygments, 以及在编译时加上参数:-shell-escape(配置教程请自行搜索)
-    \end{enumerate}
+        代码文件的路径是相对于当前文件的路径, 例如:code/helloworld.py
 \end{abstract}
 \section{测试公式}
 这是欧拉公式：$e^{i\pi}+1=0$
@@ -26,7 +28,6 @@ $$
 \frac{\partial B}{\partial t} = \frac{\partial J}{\partial x}
 \end{aligned}
 $$
-\newpage
 \section{测试算法伪代码}
 \begin{algorithm}
 \caption{测试算法伪代码}
@@ -61,8 +62,6 @@ $$
     plt.plot(x, y)
     plt.show()
 \end{lstlisting}
-
-\newpage
 
 \section{测试代码文件}
 
