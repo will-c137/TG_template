@@ -2,7 +2,7 @@
 
 \title{\textbf{数值分析上机作业模板}}
 \author{will}
-\date{\today}
+\date{\small\normalfont\today}
 
 \begin{document}
 \maketitle
@@ -31,17 +31,15 @@ $$
 \begin{algorithm}
 \caption{测试算法伪代码}
 \begin{algorithmic}
-\REQUIRE $a, b, \epsilon$
-\ENSURE $x^*$, 使得$|f(x^*)| < \epsilon$
-\STATE $x^* = \frac{a + b}{2}$
-\WHILE{$|f(x^*)| > \epsilon$}
-\IF{$f(a) f(x^*) < 0$}
-\STATE $b = x^*$
-\ELSE
-\STATE $a = x^*$
-\ENDIF
-\STATE $x^* = \frac{a + b}{2}$
-\ENDWHILE
+\Require{$f(x, y)$}
+\Ensure{$x_0, y_0, h, n$}
+\State $x \leftarrow x_0$
+\State $y \leftarrow y_0$
+\For{$i=1$ to $n$}
+\State $y \leftarrow y + h f(x, y)$
+\State $x \leftarrow x + h$
+\EndFor
+\State \textbf{return} $x, y$
 \end{algorithmic}
 \end{algorithm}
 \section{测试行内代码}

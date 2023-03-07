@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.3.4)  4 MAR 2023 22:55
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.3.4)  7 MAR 2023 17:02
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -473,17 +473,26 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
 \@float@every@algorithm=\toks31
 \c@algorithm=\count318
-) (c:/texlive/2023/texmf-dist/tex/latex/algorithms/algorithmic.sty
-Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
-Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
-\c@ALC@unique=\count319
-\c@ALC@line=\count320
-\c@ALC@rem=\count321
-\c@ALC@depth=\count322
-\ALC@tlm=\skip67
-\algorithmicindent=\skip68
+) (c:/texlive/2023/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count319
+\c@ALG@rem=\count320
+\c@ALG@nested=\count321
+\ALG@tlm=\skip67
+\ALG@thistlm=\skip68
+\c@ALG@Lnr=\count322
+\c@ALG@blocknr=\count323
+\c@ALG@storecount=\count324
+\c@ALG@tmpcounter=\count325
+\ALG@tmplength=\skip69
+) (c:/texlive/2023/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+
+Document Style - pseudocode environments for use with the `algorithmicx' style
 )
-\c@problemname=\count323
+\c@problemname=\count326
 ) (./testhomework.aux)
 \openout1 = `testhomework.aux'.
 
@@ -614,10 +623,10 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 
 ] (./testhomework.aux) ) 
 Here is how much of TeX's memory you used:
- 16174 strings out of 476688
- 343002 string characters out of 5807700
- 1855001 words of memory out of 5000000
- 36142 multiletter control sequences out of 15000+600000
+ 16543 strings out of 476688
+ 348982 string characters out of 5807700
+ 1854001 words of memory out of 5000000
+ 36507 multiletter control sequences out of 15000+600000
  527319 words of font info for 107 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  104i,6n,111p,388b,331s stack positions out of 10000i,1000n,20000p,200000b,200000s

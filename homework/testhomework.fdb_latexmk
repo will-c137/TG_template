@@ -1,11 +1,11 @@
 # Fdb version 4
-["xdvipdfmx"] 1677941756 "testhomework.xdv" "testhomework.pdf" "testhomework" 1677941757 0
-  "testhomework.xdv" 1677941756 6336 ba95b68149f967d374d8f75902157f8f "xelatex"
+["xdvipdfmx"] 1678179773 "testhomework.xdv" "testhomework.pdf" "testhomework" 1678179774 0
+  "testhomework.xdv" 1678179773 6336 80db6c2b7a89555968839ecbf7585227 "xelatex"
   (generated)
   "testhomework.pdf"
   (rewritten before read)
-["xelatex"] 1677941754 "c:/Users/will6/TG_template/homework/testhomework.tex" "testhomework.xdv" "testhomework" 1677941757 0
-  "TGhomework.cls" 1677941754 1209 9b0bfccf70faad8cd235127436190ed2 ""
+["xelatex"] 1678179771 "c:/Users/will6/TG_template/homework/testhomework.tex" "testhomework.xdv" "testhomework" 1678179774 0
+  "TGhomework.cls" 1678179771 1242 658d6db697b7d89cabf4652e73080bb1 ""
   "c:/Users/will6/TG_template/homework/testhomework.tex" 1677223581 1286 ce38d32cf7d346874de155e395702725 ""
   "c:/Windows/Fonts/msyh.ttc" 1654173332 10973500 20e400fa0d4c5ba98c4448cfcd9b9fd9 ""
   "c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1677936702 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -59,8 +59,9 @@
   "c:/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty" 1677937367 20089 80423eac55aa175305d35b49e04fe23b ""
   "c:/texlive/2023/texmf-dist/tex/generic/stringenc/stringenc.sty" 1677937688 21514 b7557edcee22835ef6b03ede1802dad4 ""
   "c:/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty" 1677937917 7008 f92eaa0a3872ed622bbf538217cd2ab7 ""
+  "c:/texlive/2023/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty" 1677936144 26750 ce139c05a983e19ddca355b43e29c395 ""
+  "c:/texlive/2023/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty" 1677936144 3457 d9077efe6b74c5a094199256af8d7d9a ""
   "c:/texlive/2023/texmf-dist/tex/latex/algorithms/algorithm.sty" 1677936144 3249 15763257e50278eef5db1952ccde229c ""
-  "c:/texlive/2023/texmf-dist/tex/latex/algorithms/algorithmic.sty" 1677936144 9318 793e9d5a71e74e730d97f6bf5d7e2bca ""
   "c:/texlive/2023/texmf-dist/tex/latex/amscls/amsthm.sty" 1677936149 12594 0d51ac3a545aaaa555021326ff22a6cc ""
   "c:/texlive/2023/texmf-dist/tex/latex/amsfonts/amsfonts.sty" 1677936151 5949 3f3fd50a8cc94c3d4cbf4fc66cd3df1c ""
   "c:/texlive/2023/texmf-dist/tex/latex/amsfonts/amssymb.sty" 1677936151 13829 94730e64147574077f8ecfea9bb69af4 ""
@@ -137,7 +138,7 @@
   "c:/texlive/2023/texmf-dist/web2c/texmf.cnf" 1677936121 40530 b2a0bbc663f26557532afc76c9e29954 ""
   "c:/texlive/2023/texmf-var/web2c/xetex/xelatex.fmt" 1677938252 10497176 d85c9bd016db044665aac4992c502357 ""
   "c:/texlive/2023/texmf.cnf" 1677938068 713 e69b156964470283e0530f5060668171 ""
-  "testhomework.aux" 1677941756 520 9c1a709c014649c32e70d4a7a33299d3 "xelatex"
+  "testhomework.aux" 1678179773 520 9c1a709c014649c32e70d4a7a33299d3 "xelatex"
   "testhomework.tex" 1677223581 1286 ce38d32cf7d346874de155e395702725 ""
   (generated)
   "testhomework.aux"

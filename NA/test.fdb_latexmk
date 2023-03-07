@@ -1,18 +1,18 @@
 # Fdb version 4
-["xdvipdfmx"] 1677941595 "test.xdv" "test.pdf" "test" 1677941596 0
-  "test.xdv" 1677941595 25960 63b006c0ac009d7f03ea66e5b9ba7704 "xelatex"
+["xdvipdfmx"] 1678179623 "test.xdv" "test.pdf" "test" 1678179624 0
+  "test.xdv" 1678179623 24852 510aeea55b745bca1bd38e0a1e112c65 "xelatex"
   (generated)
   "test.pdf"
   (rewritten before read)
-["xelatex"] 1677941593 "c:/Users/will6/TG_template/NA/test.tex" "test.xdv" "test" 1677941596 0
-  "TGNA.cls" 1677941593 1433 2e45cd1f072dd126b60c26f4ee0b335e ""
+["xelatex"] 1678179622 "c:/Users/will6/TG_template/NA/test.tex" "test.xdv" "test" 1678179624 0
+  "TGNA.cls" 1678179490 1468 aae31b48301df317f517fe19db6e67e9 ""
   "_minted-test/21AB3C5B15F9175F0F3A09E0793FE90C7BD2C60CC0E899ACAD06DE7DF397847C.pygtex" 1677217939 876 c7108a99c5527973a2464ac3a408d58d ""
   "_minted-test/3CC1601BAA12BE8BF33BB20C1678526D9D2B0F44D59ACD5573F61A63BA647965.pygtex" 1677221550 1704 9014cd457d475ee95442fca869f74715 ""
   "_minted-test/4EE7161039003A8B1CC2732208A995F77BD2C60CC0E899ACAD06DE7DF397847C.pygtex" 1677217938 171 14360ab6aadab7c314d21bd2fef11212 ""
   "_minted-test/C6405E5067791E58B29576A45CA41FD40ACCF7B8CCA00F3804F660C5610F98C2.pygtex" 1677217938 299 52bb90854cb4b8d55d87a6beb3e14227 ""
   "_minted-test/D5772B66B4B7E3BC79C960158C5060E60ACCF7B8CCA00F3804F660C5610F98C2.pygtex" 1677217939 519 47a19df5b701a6aa854b03a9af542d90 ""
   "_minted-test/colorful.pygstyle" 1677217938 7147 8001e9fc0fb7c69999f2a3336a9ab7bd ""
-  "c:/Users/will6/TG_template/NA/test.tex" 1677941546 1917 c9e33ca94b8f487ea2b53107e2c38af2 ""
+  "c:/Users/will6/TG_template/NA/test.tex" 1678179621 1910 3ff5dbc46e1bfeebb347d436d865c19d ""
   "c:/Windows/Fonts/msyh.ttc" 1654173332 10973500 20e400fa0d4c5ba98c4448cfcd9b9fd9 ""
   "c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1677936702 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1677938054 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
@@ -69,8 +69,9 @@
   "c:/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty" 1677937917 7008 f92eaa0a3872ed622bbf538217cd2ab7 ""
   "c:/texlive/2023/texmf-dist/tex/generic/xstring/xstring.sty" 1677938037 123 a302f2c651a95033260db60e51527ae8 ""
   "c:/texlive/2023/texmf-dist/tex/generic/xstring/xstring.tex" 1677938037 48215 374fa42173896b227f2f50bc75dfda91 ""
+  "c:/texlive/2023/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty" 1677936144 26750 ce139c05a983e19ddca355b43e29c395 ""
+  "c:/texlive/2023/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty" 1677936144 3457 d9077efe6b74c5a094199256af8d7d9a ""
   "c:/texlive/2023/texmf-dist/tex/latex/algorithms/algorithm.sty" 1677936144 3249 15763257e50278eef5db1952ccde229c ""
-  "c:/texlive/2023/texmf-dist/tex/latex/algorithms/algorithmic.sty" 1677936144 9318 793e9d5a71e74e730d97f6bf5d7e2bca ""
   "c:/texlive/2023/texmf-dist/tex/latex/amscls/amsthm.sty" 1677936149 12594 0d51ac3a545aaaa555021326ff22a6cc ""
   "c:/texlive/2023/texmf-dist/tex/latex/amsfonts/amsfonts.sty" 1677936151 5949 3f3fd50a8cc94c3d4cbf4fc66cd3df1c ""
   "c:/texlive/2023/texmf-dist/tex/latex/amsfonts/amssymb.sty" 1677936151 13829 94730e64147574077f8ecfea9bb69af4 ""
@@ -159,8 +160,8 @@
   "c:/texlive/2023/texmf.cnf" 1677938068 713 e69b156964470283e0530f5060668171 ""
   "code/helloworld.py" 1677221491 471 4f82501bc0d27a64ad1efe9b6492cf3f ""
   "nul" 0 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "test.aux" 1677941595 1651 aa89b8197f048dcd501291414cd494d4 "xelatex"
-  "test.tex" 1677941546 1917 c9e33ca94b8f487ea2b53107e2c38af2 ""
+  "test.aux" 1678179623 1651 c314033b68e1974ef460aa8c1536d697 "xelatex"
+  "test.tex" 1678179621 1910 3ff5dbc46e1bfeebb347d436d865c19d ""
   (generated)
   "test.aux"
   "test.log"

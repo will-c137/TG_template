@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.3.4)  4 MAR 2023 22:53
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.3.4)  7 MAR 2023 17:00
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -571,15 +571,24 @@ Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environment
 \@float@every@algorithm=\toks33
 \c@algorithm=\count350
-) (c:/texlive/2023/texmf-dist/tex/latex/algorithms/algorithmic.sty
-Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
-Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
-\c@ALC@unique=\count351
-\c@ALC@line=\count352
-\c@ALC@rem=\count353
-\c@ALC@depth=\count354
-\ALC@tlm=\skip71
-\algorithmicindent=\skip72
+) (c:/texlive/2023/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count351
+\c@ALG@rem=\count352
+\c@ALG@nested=\count353
+\ALG@tlm=\skip71
+\ALG@thistlm=\skip72
+\c@ALG@Lnr=\count354
+\c@ALG@blocknr=\count355
+\c@ALG@storecount=\count356
+\c@ALG@tmpcounter=\count357
+\ALG@tmplength=\skip73
+) (c:/texlive/2023/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+
+Document Style - pseudocode environments for use with the `algorithmicx' style
 ))
 runsystem(for ^%i in (pygmentize.exe pygmentize.bat pygmentize.cmd) do set > test.aex <nul: /p x=^%~$PATH:i>> test.aex)...executed.
 
@@ -744,12 +753,12 @@ LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <8> not available
 )
 \openout4 = `test.pyg'.
 
- (./_minted-test/C6405E5067791E58B29576A45CA41FD40ACCF7B8CCA00F3804F660C5610F98C2.pygtex) [1
-
-]
+ (./_minted-test/C6405E5067791E58B29576A45CA41FD40ACCF7B8CCA00F3804F660C5610F98C2.pygtex)
 \openout3 = `test.pyg'.
 
- (./_minted-test/21AB3C5B15F9175F0F3A09E0793FE90C7BD2C60CC0E899ACAD06DE7DF397847C.pygtex)
+ (./_minted-test/21AB3C5B15F9175F0F3A09E0793FE90C7BD2C60CC0E899ACAD06DE7DF397847C.pygtex [1
+
+])
 \openout3 = `test.pyg'.
 
  (./_minted-test/D5772B66B4B7E3BC79C960158C5060E60ACCF7B8CCA00F3804F660C5610F98C2.pygtex) (./_minted-test/3CC1601BAA12BE8BF33BB20C1678526D9D2B0F44D59ACD5573F61A63BA647965.pygtex [2]) [3] (./test.aux)
@@ -757,12 +766,12 @@ runsystem(del test.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 19520 strings out of 476688
- 415836 string characters out of 5807700
+ 19868 strings out of 476688
+ 421696 string characters out of 5807700
  1861001 words of memory out of 5000000
- 39389 multiletter control sequences out of 15000+600000
- 527431 words of font info for 121 fonts, out of 8000000 for 9000
+ 39734 multiletter control sequences out of 15000+600000
+ 527423 words of font info for 120 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  104i,7n,111p,374b,772s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on test.xdv (3 pages, 25960 bytes).
+Output written on test.xdv (3 pages, 24852 bytes).

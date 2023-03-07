@@ -30,20 +30,19 @@ $$
 $$
 \section{测试算法伪代码}
 \begin{algorithm}
-\caption{测试算法伪代码}
-\begin{algorithmic}
-\REQUIRE $a, b, \epsilon$
-\ENSURE $x^*$, 使得$|f(x^*)| < \epsilon$
-\STATE $x^* = \frac{a + b}{2}$
-\WHILE{$|f(x^*)| > \epsilon$}
-\IF{$f(a) f(x^*) < 0$}
-\STATE $b = x^*$
-\ELSE
-\STATE $a = x^*$
-\ENDIF
-\STATE $x^* = \frac{a + b}{2}$
-\ENDWHILE
-\end{algorithmic}
+    \caption{求解$\int_{0}^{1}x^n \mathrm{e}^x \,  \mathrm{d}x$并计算相对误差}
+    \label{alg:2}
+    \begin{algorithmic}[1]
+        \Function{F}{$n$}
+            \If {$n = 0$}
+                \State \Return $0$
+            \Else
+                \State \Return $\mathrm{e} -(n+1)F(n-1)$
+            \EndIf
+        \EndFunction
+        \State $y_n \gets F(n)$
+        \State $\varepsilon_n \gets \frac{|y_n - y_n^*|}{|y_n^*|}$
+    \end{algorithmic}
 \end{algorithm}
 
 \section{测试代码块}

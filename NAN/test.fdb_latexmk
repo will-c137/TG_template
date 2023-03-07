@@ -1,12 +1,12 @@
 # Fdb version 4
-["xdvipdfmx"] 1677942564 "test.xdv" "test.pdf" "test" 1677942565 0
-  "test.xdv" 1677942564 36064 f366ec8a400b59ba4d36b14f63667fae "xelatex"
+["xdvipdfmx"] 1678179717 "test.xdv" "test.pdf" "test" 1678179717 0
+  "test.xdv" 1678179716 36000 a7744eaf503e69248b47db835df7dcd6 "xelatex"
   (generated)
   "test.pdf"
   (rewritten before read)
-["xelatex"] 1677942562 "c:/Users/will6/TG_template/NAN/test.tex" "test.xdv" "test" 1677942565 0
-  "TGNAN.cls" 1677942464 1243 58fe7b2d6aec33b6dee9a38d4fd4fa13 ""
-  "c:/Users/will6/TG_template/NAN/test.tex" 1677942562 1683 e5a190be042c802d0b16ee63bcc910b0 ""
+["xelatex"] 1678179715 "c:/Users/will6/TG_template/NAN/test.tex" "test.xdv" "test" 1678179717 0
+  "TGNAN.cls" 1678179680 1276 9c15a49804b1df60d3975fe0e7202ce1 ""
+  "c:/Users/will6/TG_template/NAN/test.tex" 1678179713 1827 590b76f2700281c107ad9fbb7686741f ""
   "c:/Windows/Fonts/msyh.ttc" 1654173332 10973500 20e400fa0d4c5ba98c4448cfcd9b9fd9 ""
   "c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1677936702 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1677938054 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
@@ -59,8 +59,9 @@
   "c:/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty" 1677937367 20089 80423eac55aa175305d35b49e04fe23b ""
   "c:/texlive/2023/texmf-dist/tex/generic/stringenc/stringenc.sty" 1677937688 21514 b7557edcee22835ef6b03ede1802dad4 ""
   "c:/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty" 1677937917 7008 f92eaa0a3872ed622bbf538217cd2ab7 ""
+  "c:/texlive/2023/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty" 1677936144 26750 ce139c05a983e19ddca355b43e29c395 ""
+  "c:/texlive/2023/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty" 1677936144 3457 d9077efe6b74c5a094199256af8d7d9a ""
   "c:/texlive/2023/texmf-dist/tex/latex/algorithms/algorithm.sty" 1677936144 3249 15763257e50278eef5db1952ccde229c ""
-  "c:/texlive/2023/texmf-dist/tex/latex/algorithms/algorithmic.sty" 1677936144 9318 793e9d5a71e74e730d97f6bf5d7e2bca ""
   "c:/texlive/2023/texmf-dist/tex/latex/amscls/amsthm.sty" 1677936149 12594 0d51ac3a545aaaa555021326ff22a6cc ""
   "c:/texlive/2023/texmf-dist/tex/latex/amsfonts/amsfonts.sty" 1677936151 5949 3f3fd50a8cc94c3d4cbf4fc66cd3df1c ""
   "c:/texlive/2023/texmf-dist/tex/latex/amsfonts/amssymb.sty" 1677936151 13829 94730e64147574077f8ecfea9bb69af4 ""
@@ -143,8 +144,8 @@
   "c:/texlive/2023/texmf-var/web2c/xetex/xelatex.fmt" 1677938252 10497176 d85c9bd016db044665aac4992c502357 ""
   "c:/texlive/2023/texmf.cnf" 1677938068 713 e69b156964470283e0530f5060668171 ""
   "code/test.py" 1677597117 386 91122c358c7823b7cb2e9d41109342d9 ""
-  "test.aux" 1677942564 1213 4fb0547bbe1de90f414ce85ee6e1bdcc "xelatex"
-  "test.tex" 1677942562 1683 e5a190be042c802d0b16ee63bcc910b0 ""
+  "test.aux" 1678179716 1351 c5f1576b689e1c6c0dc1cae70ab026d7 "xelatex"
+  "test.tex" 1678179713 1827 590b76f2700281c107ad9fbb7686741f ""
   (generated)
   "test.aux"
   "test.log"

@@ -1,6 +1,6 @@
 % Author: Will
-% Version: 1.2
-% Date: 2023-3-4
+% Version: 1.3
+% Date: 2023-3-7
 % Description: TGNA.cls is a class file for Numerical Analysis course.
 
 \ProvidesClass{TGNAN}
@@ -42,7 +42,8 @@
 % algorithm settings
 
 \RequirePackage{algorithm}
-\RequirePackage{algorithmic}
+\RequirePackage{algorithmicx}
+\RequirePackage{algpseudocode}
 \renewcommand{\algorithmicrequire}{\textbf{Input:}}  % Use Input in the format of Algorithm
 \renewcommand{\algorithmicensure}{\textbf{Output:}} % Use Output in the format of Algorithm
 

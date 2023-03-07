@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.3.4)  4 MAR 2023 23:09
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.3.4)  7 MAR 2023 17:01
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -499,15 +499,24 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
 \@float@every@algorithm=\toks32
 \c@algorithm=\count328
-) (c:/texlive/2023/texmf-dist/tex/latex/algorithms/algorithmic.sty
-Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
-Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
-\c@ALC@unique=\count329
-\c@ALC@line=\count330
-\c@ALC@rem=\count331
-\c@ALC@depth=\count332
-\ALC@tlm=\skip67
-\algorithmicindent=\skip68
+) (c:/texlive/2023/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count329
+\c@ALG@rem=\count330
+\c@ALG@nested=\count331
+\ALG@tlm=\skip67
+\ALG@thistlm=\skip68
+\c@ALG@Lnr=\count332
+\c@ALG@blocknr=\count333
+\c@ALG@storecount=\count334
+\c@ALG@tmpcounter=\count335
+\ALG@tmplength=\skip69
+) (c:/texlive/2023/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+
+Document Style - pseudocode environments for use with the `algorithmicx' style
 )) (./test.aux)
 \openout1 = `test.aux'.
 
@@ -623,7 +632,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 7.
 Package hyperref Info: Link coloring OFF on input line 7.
-\c@lstlisting=\count333
+\c@lstlisting=\count336
 LaTeX Font Info:    Trying to load font information for U+msa on input line 9.
 (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -642,15 +651,15 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 ) [1
 
 ]
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 68.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 67.
  (./code/test.py) [2] (./test.aux) ) 
 Here is how much of TeX's memory you used:
- 17670 strings out of 476688
- 365947 string characters out of 5807700
- 1947001 words of memory out of 5000000
- 37604 multiletter control sequences out of 15000+600000
- 527383 words of font info for 115 fonts, out of 8000000 for 9000
+ 18033 strings out of 476688
+ 372107 string characters out of 5807700
+ 1946001 words of memory out of 5000000
+ 37961 multiletter control sequences out of 15000+600000
+ 527391 words of font info for 116 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  104i,7n,111p,375b,1933s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on test.xdv (2 pages, 36064 bytes).
+Output written on test.xdv (2 pages, 36000 bytes).
