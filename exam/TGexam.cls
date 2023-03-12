@@ -1,6 +1,6 @@
 % Author: Will
-% Version: 1.2
-% Date: 2023-3-4
+% Version: 1.3
+% Date: 2023-3-14
 % Description: TGexam.cls is a class file for test paper.
 
 \ProvidesClass{TGexam}
@@ -25,4 +25,7 @@
 
 % comment settings
 
-\renewcommand\abstractname{注\hspace{2em}意}
+\newcommand{\comment}[1]{\gdef\@comment{#1}}
+\newcommand{\contributor}[1]{\gdef\@contributor{#1}}
+\renewcommand{\maketitle}{\noindent\textbf{Title:\,\@title}\par\noindent\textbf{Author:\,\@author}\par\noindent\textbf{Date:\,\@date}\par\noindent\textbf{Contributor:\,\@contributor}\par\noindent\textbf{Comment:\,\@comment}~\\}
+
